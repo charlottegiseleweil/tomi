@@ -180,7 +180,7 @@ function main(){
            {
              swal({
               text:"Je t'aime comme 2x Bernard Cazeneuve",
-              confirmButtonText: "D'accord"
+              confirmButtonText: "Il est même pu ministre"
               });
            }
       );
@@ -194,11 +194,38 @@ function main(){
            }
       );
 
-      $("#jetaime7").click( function()
+      $("#jetaime11").click( function()
            {
              swal({
               text:"Je t'aime de ouf",
               confirmButtonText: "D'accord"
+              });
+           }
+      );
+
+      $("#jetaime10").click( function()
+           {
+             swal({
+              text:"Ça commence à faire beaucoup de love",
+              confirmButtonText: "Trop de love, oui ça me soûle"
+              });
+           }
+      );
+
+      $("#jetaime12").click( function()
+           {
+             swal({
+              text:"Je t'aime quand même",
+              confirmButtonText: "Coool"
+              });
+           }
+      );
+
+      $("#jetaime7").click( function()
+           {
+             swal({
+              text:"Je t'aime bien",
+              confirmButtonText: "Poil au sein"
               });
            }
       );
