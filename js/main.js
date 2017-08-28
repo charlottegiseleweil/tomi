@@ -122,4 +122,142 @@ function main(){
         });
 
 
+      $("#jetaime1").click( function()
+           {
+             swal({
+              text:"Je t'aime beaucoup",
+              confirmButtonText: "D'accord"
+              });
+           }
+      );
+
+      $("#jetaime6").click( function()
+           {
+             swal({
+              text:"Je t'aime à donf",
+              confirmButtonText: "D'accord"
+              });
+           }
+      );
+
+      $("#jetaime5").click( function()
+           {
+             swal({
+              text:"Je t'aime tout plein",
+              confirmButtonText: "D'accord"
+              });
+           }
+      );
+
+      $("#jetaime4").click( function()
+           {
+             swal({
+              text:"Je t'aime ça va",
+              confirmButtonText: "D'accord"
+              });
+           }
+      );
+
+      $("#jetaime3").click( function()
+           {
+             swal({
+              text:"Je t'aime pas mal",
+              confirmButtonText: "D'accord"
+              });
+           }
+      );
+
+      $("#jetaime2").click( function()
+           {
+             swal({
+              text:"Je t'aime des tonnes",
+              confirmButtonText: "D'accord"
+              });
+           }
+      );
+
+      $("#jetaime9").click( function()
+           {
+             swal({
+              text:"Je t'aime comme 2x Bernard Cazeneuve",
+              confirmButtonText: "D'accord"
+              });
+           }
+      );
+
+      $("#jetaime8").click( function()
+           {
+             swal({
+              text:"Je t'aime grave",
+              confirmButtonText: "D'accord"
+              });
+           }
+      );
+
+      $("#jetaime7").click( function()
+           {
+             swal({
+              text:"Je t'aime de ouf",
+              confirmButtonText: "D'accord"
+              });
+           }
+      );
+
+    $("#chat3").click( function()
+           {
+              swal({
+            title: "T'es un petit chat",
+            showCancelButton: true,
+            cancelButtonText: "D'accord",
+            confirmButtonText: "Encore",
+            confirmButtonColor: '#7h5r4d3',
+            cancelButtonColor: '#9p5r8d3',
+                }).then(function () {
+              swal(
+                'Toujours un chat',
+                'Super !',
+                'success'
+                )
+              })
+            }
+          );
+
+     $("#chat1").click( function()
+           {
+              swal({
+            title: "T'es un gros chat",
+            showCancelButton: true,
+            cancelButtonText: "D'accord",
+            confirmButtonText: "Encore",
+            confirmButtonColor: '#7h5r4d3',
+            cancelButtonColor: '#9p5r8d3',
+                }).then(function () {
+              swal(
+                'Toujours un chat',
+                'Super !',
+                'success'
+                )
+              })
+            }
+      );
+
+      $("#chat2").click( function()
+           {
+              swal({
+            title: "T'es un chéri chat",
+            showCancelButton: true,
+            cancelButtonText: "D'accord",
+            confirmButtonText: "Encore",
+            confirmButtonColor: '#7h5r4d3',
+            cancelButtonColor: '#9p5r8d3',
+                }).then(function () {
+              swal(
+                'Toujours un chat',
+                'Super !',
+                'success'
+                )
+              })
+            }
+      );
+
   };

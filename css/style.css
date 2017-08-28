@@ -21,6 +21,39 @@
 	margin: 50px 25px 200px 10px;
 }
 
+.btn1color{
+	margin: 0px 20px 40px 15px;
+	background-color: magenta !important;
+}
+
+.btn2color{
+	margin: 200px 20px 0px 5px;
+	background-color: forestgreen !important;
+}
+
+.btn3color{
+	margin: 50px 25px 200px 10px;
+	background-color: cornflowerblue !important;
+}
+
+.btn4color{
+	margin: 50px 25px 200px 10px;
+	background-color: blue !important;
+}
+
+.btn5color{
+	margin: 300px 5px 3px 10px;
+	background-color: lightblue !important;
+}
+
+.btnpetitchat{
+	margin: 300px 5px 3px 10px;
+	height:46px;
+	width:58px;
+	padding:0px 0px !important;
+}
+
+
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background: #fefefe;
