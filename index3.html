@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html>
+
+    <head>
+      <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+      <meta content="utf-8" http-equiv="encoding">
+      <title>Coucou Tomi</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body style="background-color: darkblue;">
+
+        <!-- - - - - - - - Protect page with a password - - - - - - - -->
+        <SCRIPT>
+        function passWord() {
+        var motdepasse = "charlilie"
+        var testV = 1;
+        var pass1 = prompt("C'est qui la femme de ta vie?",' ');
+        while (testV < 6) {
+        if (!pass1) 
+        history.go(-1);
+        if (pass1.toLowerCase() == motdepasse) {
+        alert('Trop fort chéri');
+        window.open('index4.html');
+        break;
+        } 
+        testV+=1;
+        var pass1 = 
+        prompt("Non, c'est pas elle :(","Pense à comment tu l'appelles... ");
+        }
+        if (pass1.toLowerCase()!="password" & testV ==3) 
+        history.go(-1);
+        return " ";
+        } 
+        </SCRIPT>
+
+        <CENTER>
+        <FORM>
+        <input type="button" value="Encore!" onClick="passWord()">
+        </FORM>
+        </CENTER>
+
+
+
+
+
+    </body>
+
+
+
+
+</html>
